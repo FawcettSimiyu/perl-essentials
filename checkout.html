@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Pearl Essentials</title>
+    <link rel="icon" type="image/ico" href="img/IMG-20190802-WA0000.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="card" id="head1">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="note">
+              <p>Free Delivery Within Nairobi CBD</p>
+            </div>
+          </div>
+          <div class="col-md-6" id="login1">
+            <div class="card-body">
+              <div class="login3">
+	              <a href="#myModal" class="trigger-btn" data-toggle="modal">Login</a>
+              </div>
+              <div id="myModal" class="modal fade">
+	               <div class="modal-dialog modal-login">
+		                <div class="modal-content">
+			                <div class="modal-header">
+				                <h4 class="modal-title">Member Login</h4>
+				                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			                </div>
+			                <div class="modal-body">
+				                <form action="/examples/actions/confirmation.php" method="post">
+					            <div class="form-group">
+						            <i class="fa fa-user"></i>
+						            <input type="text" class="form-control" placeholder="Username" required="required">
+					            </div>
+					            <div class="form-group">
+						            <i class="fa fa-lock"></i>
+						            <input type="password" class="form-control" placeholder="Password" required="required">
+					            </div>
+					            <div class="form-group">
+						            <input type="submit" class="btn btn-primary btn-block btn-lg" value="Login">
+					            </div>
+				            </form>
+			            </div>
+			            <div class="modal-footer">
+				            <a href="#">Forgot Password?</a>
+			            </div>
+                </div>
+	            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" id="nav1">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" height="60" alt="mdb logo">
+          </a>
+          <a class="navbar-brand" href="#">Pear Essentials</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+            <ul class="navbar-nav mr-auto" id="navbar">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#brand">Brands</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tool">Make Up Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shop">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Beauty</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#face">Face</a>
+                  <a class="dropdown-item" href="#eye">Eyes</a>
+                  <a class="dropdown-item" href="#lip">Lips</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline">
+              <div class="md-form my-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search Categories" aria-label="Search">
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class="card" id="head3">
+        <div class="row" id="head2">
+          <div class="col-md-4">
+            <h6 id="impressium">Pearl Essentials<br>Because You are Beautiful</h6>
+          </div>
+          <div class="col-md-4 text-center">
+            <label for="search">Enter Email to Subscribe to our Newsletter</label>
+            <div class="">
+              <input type="email" name="email" value="">
+              <button type="submit" name="button">Submit</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+          </div>
+        </div>
+      </div>
+      <div class="card" id="checkout1">
+        <div class="card-title">
+          <h5 class="text-center">Fill Checkout Form to Complete</h5>
+        </div>
+        <form id="checkout">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card" id="delivery">
+                <h6 class="text-center">Delivery Address</h6>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John Doe">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="john@example.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="text" id="adr" name="address" placeholder="Moi Avenue">
+                <label for="city"><i class="fa fa-institution"></i> County</label>
+                <input type="text" id="city" name="city" placeholder="Nairobi">
+                <div class="row">
+                  <div class="col-50">
+                    <label for="state">Town</label>
+                    <input type="text" id="state" name="state" placeholder="Roysambu">
+                  </div>
+                  <div class="col-50" id="zip1">
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" placeholder="Optional">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-6">
+              <div class="card"
+                <div class="icon-container">
+                  <h6 class="text-center">How to Pay</h6>
+                  <ol>
+                    <li>Go to Mpesa Sim ToolKit</li>
+                    <li>Select [Lipa na Mpesa]</li>
+                    <li>Select [Buy Goods and Services]</li>
+                    <li>Enter Till Number [XXXXX]</li>
+                    <li>Enter Amounnt</li>
+                    <li>Complete Transaction with PIN</li>
+                  </ol>
+                </div>
+                <div class="card text-center" id="mpesa">
+                <label for="cname">Mpesa Name</label>
+                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                <label for="ccnum">Transaction Code</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="NH90T3KBD4">
+                <label for="ccnum">Amount Paid</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="2000Ksh">
+                </div>
+              </div>
+              </div>
+            </div>
+            <div id="complete">
+              <input type="submit" value="Complete Order" class="btn bg-warning" id="complete">
+            </div>
+          </form>
+        </div>
+      </div>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>

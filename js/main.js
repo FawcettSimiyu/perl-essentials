@@ -12,196 +12,311 @@ var ShoppingCart = (function($) {
   // Fake JSON data array here should be API call
   var products = [
     {
-      id: 0,
+      id: 1,
       name: "Lip Balm",
       description: "Description",
-      imageUrl: "img/IMG-20190805-WA0048.jpg",
+      imageUrl: "img/IMG-20190805-WA0001.jpg",
       price: 200
     },
     {
-      id: 1,
+      id: 2,
       name: "Pearl Nail Polish",
       description: "Description",
-      imageUrl: "img/IMG-20190805-WA0047.jpg",
-      price: 200,
-    },
-    {
-      id: 2,
-      name: "BYS Eye & Cheek Pallete",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0026.jpg",
-      price: 600
+      imageUrl: "img/IMG-20190805-WA0002.jpg",
+      price: 300,
     },
     {
       id: 3,
+      name: "BYS Eye & Cheek Pallete",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0003.jpg",
+      price: 400
+    },
+    {
+      id: 4,
       name: "Brushes",
       description: "Description",
-      imageUrl: "img/IMG-20190805-WA0045.jpg",
-      price: 999
+      imageUrl: "img/IMG-20190805-WA0004.jpg",
+      price: 500
     },
     {
       id: 5,
       name: "Lip Stick",
       description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },
-    {
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },
-    {
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },
-    {
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },
-    {
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },
-    {
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },{
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },{
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },{
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },
-    {
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },
-    {
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },
-    {
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
-    },
-    {
-      id: 5,
-      name: "Lip Stick",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0044.jpg",
-      price: 599
+      imageUrl: "img/IMG-20190805-WA0005.jpg",
+      price: 600
     },
     {
       id: 6,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0006.jpg",
+      price: 700
+    },
+    {
+      id: 7,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0007.jpg",
+      price: 800
+    },
+    {
+      id: 8,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0008.jpg",
+      price: 900
+    },
+    {
+      id: 9,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0009.jpg",
+      price: 1000
+    },
+    {
+      id: 10,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0010.jpg",
+      price: 700
+    },{
+      id: 11,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0011.jpg",
+      price: 900
+    },{
+      id: 12,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0012.jpg",
+      price: 400
+    },{
+      id: 13,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0013.jpg",
+      price: 600
+    },
+    {
+      id: 14,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0014.jpg",
+      price: 800
+    },
+    {
+      id: 15,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0015.jpg",
+      price: 400
+    },
+    {
+      id: 16,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0016.jpg",
+      price: 900
+    },
+    {
+      id: 17,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0017.jpg",
+      price: 100
+    },
+    {
+      id: 18,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0018.jpg",
+      price: 600
+    },
+    {
+      id: 19,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0019.jpg",
+      price: 400
+    },
+    {
+      id: 20,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0020.jpg",
+      price: 550
+    },
+    {
+      id: 21,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0021.jpg",
+      price: 800
+    },
+    {
+      id: 22,
       name: "FR Face Cream",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0022.jpg",
+      price: 400
+    },
+    {
+      id: 23,
+      name: "BYS Brow Definition Kit",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0023.jpg",
+      price: 300
+    },
+    {
+      id: 24,
+      name: "Maybelline Face Cream",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0024.jpg",
+      price: 800
+    },
+    {
+      id: 25,
+      name: "BYS Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0025.jpg",
+      price: 200
+    },
+    {
+      id: 26,
+      name: "Matte BYS Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0026.jpg",
+      price: 599
+    },
+    {
+      id: 27,
+      name: "Longwear BYS Lip Stick",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0027.jpg",
       price: 599
     },
     {
-      id: 7,
-      name: "BYS Brow Definition Kit",
+      id: 28,
+      name: "Nude 3 Eye Shadow",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0028.jpg",
       price: 599
     },
     {
-      id: 8,
-      name: "Maybelline Face Cream",
+      id: 29,
+      name: "BYS Eye Shadow",
       description: "Description",
-      imageUrl: "img/IMG-20190805-WA0032.jpg",
+      imageUrl: "img/IMG-20190805-WA0029.jpg",
       price: 599
     },
     {
-      id: 9,
-      name: "BYS Lip Stick",
+      id: 30,
+      name: "Lip Color",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0030.jpg",
+      price: 599
+    },
+
+    {
+      id: 31,
+      name: "Lip Stick",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0033.jpg",
       price: 599
     },
     {
-      id: 10,
-      name: "Matte BYS Lip Stick",
+      id: 32,
+      name: "Lip Stick",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0034.jpg",
       price: 599
     },
     {
-      id: 11,
-      name: "Longwear BYS Lip Stick",
+      id: 33,
+      name: "Lip Stick",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0035.jpg",
       price: 599
     },
     {
-      id: 12,
-      name: "Nude 3 Eye Shadow",
+      id: 34,
+      name: "Lip Stick",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0036.jpg",
       price: 599
     },
+
     {
-      id: 13,
-      name: "BYS Eye Shadow",
+      id: 35,
+      name: "Lip Stick",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0038.jpg",
       price: 599
     },
+
     {
-      id: 14,
-      name: "Lip Color",
+      id: 36,
+      name: "Lip Stick",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0040.jpg",
       price: 599
     },
     {
-      id: 15,
-      name: "FIT me Face Cream",
+      id: 37,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0041.jpg",
+      price: 599
+    },
+    {
+      id: 38,
+      name: "Lip Stick",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0042.jpg",
       price: 599
     },
     {
-      id: 16,
-      name: "BYS Lip Balm",
+      id: 39,
+      name: "Lip Stick",
       description: "Description",
       imageUrl: "img/IMG-20190805-WA0043.jpg",
+      price: 599
+    },
+    {
+      id: 40,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0044.jpg",
+      price: 599
+    },
+    {
+      id: 41,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0045.jpg",
+      price: 599
+    },
+    {
+      id: 42,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0048.jpg",
+      price: 599
+    },
+    {
+      id: 43,
+      name: "Lip Stick",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0047.jpg",
+      price: 599
+    },
+    {
+      id: 44,
+      name: "BYS Lip Balm",
+      description: "Description",
+      imageUrl: "img/IMG-20190805-WA0032.jpg",
       price: 599
     },
   ],
@@ -217,7 +332,7 @@ var ShoppingCart = (function($) {
                              </div>
                              <div class="product-name"><span>Product:</span> ${item.name}</div>
                              <div class="product-description"><span>Description:</span> ${item.description}</div>
-                             <div class="product-price"><span>Price:</span> ${item.price} $</div>
+                             <div class="product-price"><span>Price:</span> ${item.price} Ksh</div>
                              <div class="product-add-to-cart">
                                <a href="#0" class="button add-to-cart" data-id=${item.id}>Add to Cart</a>
                              </div>
@@ -235,7 +350,7 @@ productsEl.appendChild(productEl);
 
     productsInCart.forEach(function(item) {
       var li = document.createElement("li");
-      li.innerHTML = `${item.quantity} ${item.product.name} - $${item.product.price * item.quantity}`;
+      li.innerHTML = `${item.quantity} ${item.product.name} - Ksh${item.product.price * item.quantity}`;
       cartEl.appendChild(li);
     });
 

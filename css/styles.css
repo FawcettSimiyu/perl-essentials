@@ -240,18 +240,23 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: gothic;
   font-size: 16px;
-  background: cornsilk;
-  color: #333;
 }
-
+h5 {
+  font-family: sans-serif;
+}
+#mpesa{
+  padding-top: 44px;
+  border-right-color: inherit;
+}
 a {
   text-decoration: none;
 }
 
+#face{
+  border-bottom-style: inset;
+}
 .button {
   padding: 10px;
   border-radius: 5px;
@@ -442,7 +447,7 @@ a {
   opacity: 0.7;
 }
 #footer1 {
-  background-color: #EC0CB8;
+  background-color:#5B0B49;
 }
 #nav1{
   position: relative;
