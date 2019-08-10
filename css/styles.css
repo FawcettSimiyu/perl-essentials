@@ -250,6 +250,9 @@ h5 {
   padding-top: 44px;
   border-right-color: inherit;
 }
+.card {
+  border-top: none;
+}
 a {
   text-decoration: none;
 }
