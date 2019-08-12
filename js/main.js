@@ -30,31 +30,31 @@ var ShoppingCart = (function($) {
   var products = [
     {
       id: 1,
-      name: "Lip Balm",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0001.jpg",
-      price: 200
+      name: "Pallete",
+      description: "The MORPHE 35G Bronze Goals palette is BACK INSTOCK for a limited time, so you can get your bronze on all day long.",
+      imageUrl: "img/IMG-20190805-WA0026.jpg",
+      price: 2000
     },
     {
       id: 2,
-      name: "Pearl Nail Polish",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0002.jpg",
+      name: "Finish/Fine Mat",
+      description: "Simply spray the ultra-fine Milani Make It Last Matte Charcoal Setting Spray all over the face to set makeup and mattify for up to 16 hours 😊",
+      imageUrl: "img/900.jpg",
       price: 300,
     },
     {
       id: 3,
       name: "BYS Eye & Cheek Pallete",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0003.jpg",
-      price: 400
+      description: "With 35 super pigmented and blendable shades you won’t be disappointed! This amazing palette holds warm browns and burnt oranges. Finishes include mattes and shimmers.",
+      imageUrl: "img/IMG-20190805-WA0023.jpg",
+      price: 2999
     },
     {
       id: 4,
-      name: "Brushes",
-      description: "Description",
-      imageUrl: "img/IMG-20190805-WA0004.jpg",
-      price: 500
+      name: "Eyeshadow primer by NYX",
+      description: "Intensify your shadows with the NYX durable and waterproof eyeshadow primer. Smooth on to lids before applying shadows and voila!",
+      imageUrl: "img/IMG-20190805-WA0016.jpg",
+      price: 1200
     },
     {
       id: 5,
